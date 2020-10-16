@@ -63,7 +63,7 @@ st.write("0:Adelie",
          "1:Chinstrap",
          "2:Gentoo")
 st.write(prediction_proba)
-
+st.write("Created by: Riya Jain")
 
 
 
