@@ -55,10 +55,10 @@ clf.fit(X,y)
 # Apply model to make predictions
 prediction = clf.predict(X1[:1])
 prediction_proba = clf.predict_proba(X1[:1])
-
-
+st.write("This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island.")
+st.write("The predicted specie is:")
 st.write(prediction)
-st.subheader('Prediction Probability')
+st.subheader('Prediction Probability for the different species')
 st.write("0:Adelie",
          "1:Chinstrap",
          "2:Gentoo")
